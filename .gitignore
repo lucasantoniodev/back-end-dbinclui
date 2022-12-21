@@ -12,6 +12,7 @@ coverage
 
 # Dependency directories
 node_modules/
+package-lock.json
 
 # Optional npm cache directory
 .npm
@@ -27,6 +28,3 @@ yarn.lock
 
 ## Build
 dist/
-
-
-learning-firebase-36d1b-firebase-adminsdk-r2aia-6f8b856632.json
