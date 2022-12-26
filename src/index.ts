@@ -10,5 +10,3 @@ const app = new App();
 cloudinary.initializeConfig();
 mongo.connect();
 app.start();
-
-console.log("process", process.arch)

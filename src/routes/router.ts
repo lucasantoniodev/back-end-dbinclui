@@ -12,5 +12,4 @@ router.use("/categories", categoriesRouter);
 router.use("/digital-contents", digitalContentsRouter);
 router.use("/users", usersRouter);
 router.get("*", (_, res) => res.json({ message: "Rota não encontrada" }));
-
 export { router };
